@@ -212,7 +212,6 @@ public:
         fDefaultConsistencyChecks = false;
         fRequireStandard = false;
         m_is_test_chain = true;
-        fMiningRequiresPeers = false;
 
         checkpointData = {
             {
