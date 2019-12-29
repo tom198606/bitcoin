@@ -152,7 +152,8 @@ public:
         fDefaultConsistencyChecks = false;
         fRequireStandard = true;
         fMineBlocksOnDemand = false;
-
+        fMiningRequiresPeers = false;
+        
         checkpointData = {
             {
             }
